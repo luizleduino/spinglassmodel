@@ -1,0 +1,10 @@
+option knitro_options "ms_enable=1 bar_maxcrossit=2 ms_maxsolves=1000";
+
+solve;
+
+display s;
+
+display _solve_time;
+
+
+
