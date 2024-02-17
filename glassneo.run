@@ -1,4 +1,4 @@
-option knitro_options "ms_enable=1 bar_maxcrossit=2 ms_maxsolves=1000";
+option baron_options 'maxtime=1800';
 
 solve;
 
